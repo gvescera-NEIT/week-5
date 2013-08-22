@@ -11,12 +11,12 @@ $(window).on("load", function()
 // Creates animation for each button			
 $("#btn1, #btn2, #btn3, #btn4").mouseenter(function()
 							{
-								$(this).animate({marginTop : "+=10"});
+								$(this).animate({marginTop : "+=10"}, 100);
 							}
 			)
 			.mouseleave(function()
 							{
-								$(this).animate({marginTop : "-=10"});
+								$(this).animate({marginTop : "-=10"}, 100);
 							}
 			);			
 // When a button is clicked its corrisponding nav is shown and the other navs are hidden			
